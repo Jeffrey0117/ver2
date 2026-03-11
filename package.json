@@ -1,5 +1,5 @@
 {
-  "name": "ver2",
+  "name": "ver2-cli",
   "version": "0.1.0",
   "description": "Auto-add content-hash cache-busting query params (?v=hash) to HTML static file references. Zero dependencies.",
   "type": "module",
