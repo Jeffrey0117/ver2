@@ -1,0 +1,42 @@
+{
+  "name": "ver2",
+  "version": "0.1.0",
+  "description": "Auto-add content-hash cache-busting query params (?v=hash) to HTML static file references. Zero dependencies.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "bin": {
+    "ver2": "bin/ver2.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "cache-bust",
+    "cache-busting",
+    "html",
+    "static",
+    "hash",
+    "version",
+    "cloudflare",
+    "cdn",
+    "query-string"
+  ],
+  "author": "Jeff",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeffblog/ver2"
+  }
+}
